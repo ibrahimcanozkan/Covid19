@@ -111,7 +111,7 @@
                       <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                           <div class="text-xs font-weight-bold text-gray-100 text-uppercase mb-1">ACTIVE CASES</div>
-                          <div class="h5 mb-0 font-weight-bold text-gray-300">873928</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-300">{{ globalData.json()['active'] }}</div>
                         </div>
                         <div class="col-auto">
                           <i class="fas fa-head-side-cough fa-2x text-gray-100"></i>
@@ -145,7 +145,7 @@
                       <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                           <div class="text-xs font-weight-bold text-gray-100 text-uppercase mb-1">TOTAL DEATH</div>
-                          <div class="h5 mb-0 font-weight-bold text-gray-300">873928</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-300">{{ globalData.json()['deaths'] }}</div>
                         </div>
                         <div class="col-auto">
                           <i class="fas fa-skull-crossbones fa-2x text-gray-100"></i>
@@ -162,7 +162,7 @@
                       <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                           <div class="text-xs font-weight-bold text-gray-100 text-uppercase mb-1">NEW DEATH</div>
-                          <div class="h5 mb-0 font-weight-bold text-gray-300">873928</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-300">{{ globalData.json()['todayDeaths'] }}</div>
                         </div>
                         <div class="col-auto">
                           <i class="fas fa-skull-crossbones fa-2x text-gray-100"></i>
